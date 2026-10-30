@@ -28,7 +28,7 @@ const Feed = () => {
 
   if (!user)
     return (
-      <h1 className="flex justify-center my-20 text-xl font-semibold">
+      <h1 className="flex justify-center items-center min-h-[70vh] text-center text-xl font-semibold">
         CLICK ON LOGIN BUTTON
       </h1>
     );
